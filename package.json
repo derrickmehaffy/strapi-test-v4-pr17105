@@ -1,0 +1,30 @@
+{
+  "name": "pr-17105",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "0.0.0-experimental.dd47104357263cea53dd63ad1ccbad38db09e848",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.dd47104357263cea53dd63ad1ccbad38db09e848",
+    "@strapi/plugin-i18n": "0.0.0-experimental.dd47104357263cea53dd63ad1ccbad38db09e848",
+    "better-sqlite3": "8.0.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "5eba87d2-9e69-47ba-804f-343a5cea849a"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
